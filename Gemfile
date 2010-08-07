@@ -7,6 +7,10 @@ gem 'rails', '3.0.0.rc'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+gem 'fast_gettext', '>=0.4.8'
+gem 'gettext_i18n_rails'
+gem 'gettext', '>=1.9.3', :require => false
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
